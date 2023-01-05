@@ -1,0 +1,1 @@
+write varabudate in this format 0*/0*/23 or 1*/1*/23 or 01/02/23 otherwise error happens
