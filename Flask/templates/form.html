@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='files/css/styleform.css')}}">
+</head>
+<body>
+    <div class="container">
+        <form action="/Register" method="POST" autocomplete="off">
+        <h1>Welcome</h1>
+        <div class="det">
+            <h4>Name</h4>
+            <input class="form-control" type="text" name="name">
+        </div>
+
+        <div class="det">
+            <h4>Section</h4>
+            <input class="form-control" type="text" name="section">
+        </div>
+
+        <div class="det">
+            <h4>Gender</h4>
+            <input class="form-control" type="text" name="gender">
+        </div>
+
+        <div class="name">
+            <h4>Age</h4>
+            <input class="form-control" type="text" name="age">
+        </div>
+        <div class="btn">
+            <input class="submit" type="submit">
+
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>
